@@ -21,7 +21,7 @@ body {
     text-align: center;
 }
 
-#tracking-start-stop-button {
+#tracking-play-stop-button {
     display: inline-block;
     width: 14%;
     max-width: 100px;
