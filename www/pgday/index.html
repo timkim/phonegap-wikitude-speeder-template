@@ -14,20 +14,14 @@
 
         <link rel="stylesheet" href="css/default.css">
 
-        <!-- jquery mobile CSS -->
-        <link rel="stylesheet" href="jquery/jquery.mobile-1.3.2.min.css" />
-        <!-- required to set background transparent & enable "click through" -->
-        <link rel="stylesheet" href="jquery/jquery-mobile-transparent-ui-overlay.css" />
-
-        <!-- jquery JS files -->
         <script type="text/javascript" src="js/zepto.min.js"></script>
     </head>
 
     <body>
         <div id="loadingMessage" class="info">Loading ...</div>
-        <div data-role="page" id="page1" style="background: none;">
+        <div style="background: none;">
             <div id="tracking-controls-container-lower">
-                <input id="tracking-start-stop-button" type="image" src="assets/buttons/start.png" onclick="World.changeTrackerState()"/>
+                <input id="tracking-play-stop-button" type="image" src="assets/buttons/play_button.png" onclick="World.changeTrackerState()"/>
             </div>
         </div>
 

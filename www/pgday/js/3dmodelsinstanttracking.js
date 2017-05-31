@@ -98,10 +98,10 @@ var World = {
     changeTrackerState: function () {
         
         if (this.tracker.state === AR.InstantTrackerState.INITIALIZING) {
-            document.getElementById("tracking-start-stop-button").src = "assets/buttons/stop.png";
+            document.getElementById("tracking-play-stop-button").src = "assets/buttons/stop_button.png";
             this.tracker.state = AR.InstantTrackerState.TRACKING;
         } else {
-            document.getElementById("tracking-start-stop-button").src = "assets/buttons/start.png";
+            document.getElementById("tracking-play-stop-button").src = "assets/buttons/play_button.png";
             this.tracker.state = AR.InstantTrackerState.INITIALIZING;
         }
     },
